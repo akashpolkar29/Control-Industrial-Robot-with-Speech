@@ -1,0 +1,18 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Explicitly declare text files you want to always normalize (convert to LF in repo)
+*.py text
+*.json text
+*.txt text
+*.md text
+
+# Declare files that should always retain CRLF line endings
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Denote files that are binary and should not be modified
+*.png binary
+*.jpg binary
+*.gz binary
+*.zip binary
